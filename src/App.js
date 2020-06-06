@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from './Navbar';
 import CardMenus from './CardMenus';
 import TextShadow from './TextShadow';
@@ -16,6 +16,7 @@ const App = () => {
         <Route exact path="/text-shadow-gen" component={TextShadow} />
         <Route exact path="/box-shadow-gen" component={BoxShadow} />
         <Route exact path="/css-transform-gen" component={CSSTransform} />
+        <Redirect to="/" />
       </Switch>
     </div>
   );
