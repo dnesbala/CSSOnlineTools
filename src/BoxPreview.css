@@ -1,0 +1,12 @@
+.BoxPreview {
+  width: 18rem;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoxPreview p {
+  text-align: center;
+  color: #fff;
+}

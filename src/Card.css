@@ -1,0 +1,14 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  cursor: pointer;
+  margin: 1rem auto;
+}
+
+.Card p {
+  color: #fff;
+  font-size: 1.2rem;
+}

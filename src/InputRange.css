@@ -1,0 +1,11 @@
+.InputRange {
+  margin-bottom: 2rem;
+}
+
+.InputRange label {
+  font-size: 1rem;
+}
+
+.InputRange span {
+  color: teal;
+}

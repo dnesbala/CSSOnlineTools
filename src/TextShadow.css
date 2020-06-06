@@ -1,0 +1,32 @@
+.TextShadow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.TextShadow-controls {
+  width: 50vw;
+}
+
+.TextShadow-controls h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #838383;
+  margin-bottom: 3.5rem;
+}
+
+.TextShadow label {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .TextShadow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .TextShadow-controls {
+    width: 90vw;
+    margin-bottom: 2rem;
+  }
+}

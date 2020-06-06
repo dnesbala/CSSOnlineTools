@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
+import CardMenus from './CardMenus';
+import TextShadow from './TextShadow';
+import BoxShadow from './BoxShadow';
+import CSSTransform from './CSSTransform';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={CardMenus} />
+        <Route exact path="/text-shadow-gen" component={TextShadow} />
+        <Route exact path="/box-shadow-gen" component={BoxShadow} />
+        <Route exact path="/css-transform-gen" component={CSSTransform} />
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.BoxShadow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BoxShadow-controls {
+  width: 50vw;
+}
+
+.BoxShadow-controls h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #838383;
+  margin-bottom: 3.5rem;
+}
+
+.BoxShadow label {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .BoxShadow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .BoxShadow-controls {
+    width: 90vw;
+    margin-bottom: 2rem;
+  }
+}
