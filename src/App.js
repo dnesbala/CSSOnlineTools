@@ -5,7 +5,7 @@ import CardMenus from './CardMenus';
 import TextShadow from './TextShadow';
 import BoxShadow from './BoxShadow';
 import CSSTransform from './CSSTransform';
-import './App.css';
+import './styles/App.css';
 
 const App = () => {
   return (

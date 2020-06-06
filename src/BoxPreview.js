@@ -1,5 +1,5 @@
 import React from 'react';
-import './BoxPreview.css';
+import './styles/BoxPreview.css';
 
 const BoxPreview = ({ style, styleText }) => {
     return (

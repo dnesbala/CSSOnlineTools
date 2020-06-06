@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import InputRange from './InputRange';
 import BoxPreview from './BoxPreview';
-import './CSSTransform.css';
+import './styles/CSSTransform.css';
 
 const CSSTransform = () => {
     const [translateX, setTranslateX] = useState(0);

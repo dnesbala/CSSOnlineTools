@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import InputRange from './InputRange';
 import TextPreview from './TextPreview';
-import './TextShadow.css';
+import './styles/TextShadow.css';
 
 const TextShadow = () => {
     const [horizontalOffset, setHorizontalOffset] = useState(0);

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BoxPreview from './BoxPreview';
 import InputRange from './InputRange';
-import './BoxShadow.css';
+import './styles/BoxShadow.css';
 
 const BoxShadow = () => {
     const [horizontalOffset, setHorizontalOffset] = useState(0);

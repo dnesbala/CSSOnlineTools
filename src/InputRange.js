@@ -1,5 +1,5 @@
 import React from 'react';
-import './InputRange.css';
+import './styles/InputRange.css';
 
 const InputRange = ({ label, min, max, value, isDegree, setValue }) => {
     return (
