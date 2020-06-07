@@ -26,8 +26,8 @@ const CSSTransform = () => {
                 <InputRange label="Translate Y" min={-100} max={100} value={translateY} setValue={setTranslateY}
                 />
                 <InputRange label="Rotate" min={-360} max={360} value={rotate} isDegree setValue={setRotate} />
-                <InputRange label="Scale X" min={1} max={5} value={scaleX} setValue={setScaleX} />
-                <InputRange label="Scale Y" min={1} max={5} value={scaleY} setValue={setScaleY} />
+                <InputRange label="Scale X" min={1} max={5} value={scaleX} scaleUnit setValue={setScaleX} />
+                <InputRange label="Scale Y" min={1} max={5} value={scaleY} scaleUnit setValue={setScaleY} />
                 <InputRange label="Skew X" min={-100} max={200} value={skewX} isDegree setValue={setSkewX} />
                 <InputRange label="Skew Y" min={-100} max={200} value={skewY} isDegree setValue={setSkewY} />
                 <div className="row">
